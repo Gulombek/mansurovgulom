@@ -1,0 +1,926 @@
+@import url('https://fonts.googleapis.com/css2?family=Architects+Daughter&display=swap');
+
+body * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+.container {
+    max-width: 1200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* header */
+.header__top {
+    background: #363534;
+}
+
+.top__menu ul {
+    display: flex;
+    justify-content: space-around;
+}
+
+.top__menu ul :hover{
+    color: #FFF;
+    transition: all .5s ease-in-out;
+}
+
+.top__menu ul li {
+    list-style-type: none;
+}
+
+.top__menu ul li a {
+    text-decoration: none;
+    color: #ffffff82;
+    font-family: Gilroy;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.276px;
+    text-transform: uppercase;
+}
+
+.header__mian{
+    background: #2B2A29;
+    padding: 20px 1px;
+}
+
+.main__one i {
+    color: #fff;
+}
+
+.main__one h5 {
+    color: #fff;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.main__one p {
+    color: #ffffff87;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-style: normal;
+}
+
+.main__two i {
+    color: #fff;
+}
+
+.main__two h5 {
+    color: #FFF;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-style: normal;
+    margin-left: 30px;
+    margin-top: -20px;
+}
+
+.main__two p {
+    color: #ffffff8a;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-style: normal;
+}
+
+.main__four i {
+    color: #FEB72B;
+    margin-top: 10px;
+    margin-left: -30px;
+}
+
+.btn-check:focus+.btn-primary, .btn-primary:focus {
+    box-shadow: none;
+    background-color: #2b2a2989;
+    ;
+}
+
+.btn-check:active+.btn-primary:focus, .btn-check:checked+.btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show>.btn-primary.dropdown-toggle:focus {
+    box-shadow: none;
+    background-color: #2b2a2989;
+}
+.btn-check:active+.btn-primary, .btn-check:checked+.btn-primary, .btn-primary.active, .btn-primary:active, .show>.btn-primary.dropdown-toggle {
+    background-color: #2b2a2989;
+}
+
+.btn-primary:hover{
+    background: #3A3938;
+    color: #ffffff82;
+}
+
+.modal-header .btn-close {
+    background-color: #fff;
+}
+
+.modal-title  {
+    margin-left: 150px;
+}
+
+button, input, optgroup, select, textarea {
+    padding: 15px 55px;
+    /* text-align: center; */
+    margin-left: 84px;
+    border: none;
+    background: rgba(196, 196, 196, 0.20);
+    border-radius: 4px;
+}
+
+.main__four h5 {
+    color: #FFF;
+    font-family: "Gilroy";
+    font-size: 24px;
+    font-style: normal;
+    margin-top: -25px;
+}
+
+.main__fif button {
+    border-radius: 3px;
+    background: #3A3938;
+    padding: 10px 6px;
+    color: #FFF;
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    border: none;
+    margin-top: 10px;
+}
+
+.main__six i {
+    color: #ffffff84;
+    margin-left: 10px;
+    padding: 5px 3px;
+    font-size: 20px;
+    margin-top: 20px;
+    letter-spacing: 10px;
+    border: 1px solid #ffffff41;
+    border-radius: 3px;
+    
+}
+
+*, ::after, ::before {
+    box-sizing: border-box;
+    margin-left: 7px;
+}
+
+.header__bootim{
+    background: #89975C;
+}
+
+.bootim {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px 1px;
+}
+
+
+.bootim__img img {
+    margin-left: -35px;
+}
+
+.bootim__img h5 {
+    margin-top: -23px;
+    color: #FFF;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+
+/* home */
+.home{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 250px 1px;
+}
+
+.home__title h5 {
+    color:  #2B2A29;
+    font-family: "Gilroy";
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%; /* 65px */
+    letter-spacing: 1.3px;
+}
+
+.home__title p {
+    color:  #537223;
+    font-family: "Gilroy";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 4.5; /* 44px */
+}
+
+.home__title button {
+    border-radius: 3px;
+    background: #FFF;
+    border: none;
+    padding: 17px 15px;
+    color: #2B2A29;
+    font-family: "HelveticaNeueCyr";
+    font-size: 16px;
+}
+
+/* card */
+
+.cards__title h5 {
+    margin-top: 50px;
+    color:  #2B2A29;
+    font-family: "Gilroy";
+    font-size: 40px;
+    font-style: normal;
+}
+
+.cards__button {
+    padding: 20px 1px;
+}
+
+.cards__button button{
+    margin-top: 50px;
+    border: none;
+    border-radius: 3px;
+    padding: 10px 10px;
+    color: #2B2A29;
+    text-align: right;
+    font-family: "HelveticaNeueCyr";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+}
+
+.cardm{
+    background: #fff;
+    border: 1px solid #00000064;
+    background-color: #fff;
+    border: none;
+}
+
+
+
+.card__temp button{
+    display: flex;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 5px;
+    color: rgba(43, 42, 41, 0.70);
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%;
+}
+
+.card__temp button p {
+    color:  #537223;
+    font-family: Gilroy;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 100%;  
+}
+
+.card__temp{
+    margin-left: -64px;
+    margin-top: -40px;
+    position: absolute;
+}
+
+.card__title h5 {
+    color:  #2B2A29;
+    font-family: Roboto Slab;
+    font-size: 22px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 3.5;
+    margin-left: 20px;
+}
+
+.card__desc p {
+    margin-left: 20px;
+    color: rgba(43, 42, 41, 0.70);
+    font-family: Gilroy;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 100%; /* 14px */
+}
+.card__four h5 {
+    margin-left: 20px;
+    color:  #FDB540;
+    font-family: Gilroy;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 110%; /* 44px */
+}
+
+.card__cardn {
+    display: flex;
+    justify-content: space-between;
+    margin-left: -1px;
+    background-color: #bbb6b6;
+    line-height: 2.5;
+}
+.cardn__img img {
+    margin-left: 50px;
+}
+
+.cardn__img h5 {
+    margin-left: 20px;
+}
+
+.cardn__title img {
+    margin-left: 30px;
+}
+
+.cardn__title h5 {
+    margin-right: 20px;
+}
+
+.cardn__button{
+    padding: 20px 1px;
+    margin-left: 20px;
+}
+
+.cardn__button button{
+    padding: 15px 30px;
+    border-radius: 3px;
+    border: 1px solid  #89975C;  
+    color:  #537223;
+    font-family: "HelveticaNeueCyr";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.16px;
+    margin-left: 20px;
+}
+
+.cards{
+    padding: 40px 1px;
+    background: #e8e5e5;
+}
+
+.cardc{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 1px;
+}
+
+
+
+
+
+/* bars */
+
+.bars{
+    display: none;
+    font-size: 25px;
+    margin-top: -45px;
+}
+
+
+.offcanvas-body ul li {
+    list-style-type: none;
+    margin-right: 30px;
+}
+
+.offcanvas-body ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.offcanvas-header{
+    background: #363534;
+    box-shadow: 8px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+.offcanvas-body{
+    background: #363534;
+    box-shadow: 8px 0px 15px 0px rgba(0, 0, 0, 0.25);
+}
+
+
+
+
+/* mediya */
+
+@media (max-width: 992px) {
+    .card__cardn {
+        display: flex;
+        justify-content: space-between;
+        margin-left: -1px;
+        background-color: #bbb6b6;
+        line-height: none;
+    }
+
+    .cardn__img h5 {
+        margin-left: 10px;
+    }
+
+    .cardn__button button{
+        padding: 15px 30px;
+        border-radius: 3px;
+        border: 1px solid  #89975C;  
+        color:  #537223;
+        font-family: "HelveticaNeueCyr";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.16px;
+        margin-left: -15px;
+    }
+    
+    .main__fif button {
+        border-radius: 3px;
+        background: #3A3938;
+        padding: 10px 6px;
+        color: #FFF;
+        font-family: "Gilroy";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.16px;
+        border: none;
+        margin-top: -2px;
+        margin-left: -20px;
+    }
+
+    .main__four h5 {
+        color: #FFF;
+        font-family: "Gilroy";
+        font-size: 17px;
+        font-style: normal;
+        margin-top: -21px;
+    }
+
+    .main__six i {
+        color: #ffffff84;
+        margin-left: 1px;
+        padding: 5px 3px;
+        font-size: 20px;
+        margin-top: 4px;
+        letter-spacing: 10px;
+        border: 1px solid #ffffff41;
+        border-radius: 3px;
+        
+    }
+
+    .main__four i {
+        color: #FEB72B;
+        margin-top: 14px;
+        margin-left: -32px;
+    }
+
+    .main__two h5 {
+        color: #FFF;
+        font-family: "Gilroy";
+        font-size: 13px;
+        font-style: normal;
+        margin-left: 30px;
+        margin-top: -20px;
+    }
+
+    .card__img img {
+        width: 221px;
+    }
+
+    .card__temp button {
+        display: flex;
+        border: none;
+        border-radius: 3px;
+        padding: 5px 5px;
+        color: rgba(43, 42, 41, 0.70);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        margin-left: -20px;
+    }
+
+    .card__temp button {
+        display: flex;
+        border: none;
+        border-radius: 3px;
+        padding: 5px 5px;
+        color: rgba(43, 42, 41, 0.70);
+        font-family: Gilroy;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 100%;
+        margin-left: 77px;
+    }
+}
+
+
+@media (max-width:768px) {
+    .bars{
+        display: block;
+    }
+    .main__one{
+        display: none;
+    }
+
+    .main__two{
+        display: none;
+    }
+
+    .main__six{
+        display: none;
+    }
+
+    .top__menu{
+        display: none;
+    }
+
+    .main__fif {
+        display: none;
+    }
+
+    .bootim{
+        display: none;
+    }
+
+    .main__four i {
+        color: #FEB72B;
+        font-size: 37px;
+        margin-top: -2px;
+        margin-left: -210px;
+        position: absolute;
+    }   
+
+    .main__four h5 {
+        color: #FFF;
+        font-family: "Gilroy";
+        font-size: 32px;
+        font-style: normal;
+        margin-top: 22px;
+        margin-left: -132px;
+    }
+
+    .card__img img {
+        width: 351px;
+    }
+}
+
+@media (max-width: 760px) {
+    .main__four h5 {
+        color: #FFF;
+        font-family: "Gilroy";
+        font-size: 45px;
+        font-style: normal;
+        margin-top: -56px;
+        /* margin-left: 96px; */
+        margin-left: 210px;
+    }
+
+    .main__four i {
+        color: #FEB72B;
+        font-size: 37px;
+        margin-top: 9px;
+        margin-left: 140px;
+        position: absolute;
+    }
+
+    .fa-solid, .fas {
+        font-weight: 900;
+        margin-left: 598px;
+        font-size: 42px;
+        margin-top: -5px;
+        color: white;
+    }
+
+    .cards__button{
+        display: none;
+    }
+
+
+
+}
+
+/* card__ikon */
+
+.card__ikon {
+    background-color: #F0F0F0;
+    padding: 50px 1px;
+}
+
+
+
+
+.card__ikonn{
+    display: flex;
+    justify-content: center;
+    position: relative; 
+}
+
+.card__ikonn h5 {
+    color:  #2B2A29;
+    font-family: "Gilroy";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: 0.8px;
+    padding: 50px 1px;
+}
+
+.ikon__img img{
+    background: #fff;
+    padding: 10px 10px;
+    border-radius: 10px;
+
+}
+
+.ikon__title h5 {
+    color:  #537223;
+    font-family: "Roboto Slab";
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.ikon__desc p {
+    color:  #2B2A29;
+    font-family: "Gilroy";
+    -size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+.ikon__ther img {
+    display: flex;
+    position: absolute;
+
+}
+
+
+/* company__card  */
+
+.company{
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 1px;
+}
+
+.company__title h5 {
+    color:  #FDB540;
+    font-family: "Gilroy";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.company__desc p {
+    color: #FFF;
+    font-family: 'Gilroy';
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.5;
+    padding: 20px 1px;
+}
+
+.company__two {
+    background: #fff;
+    border-radius: 10px;
+    padding: 30px 1px;
+}
+
+.company__img  {
+    background-color: #fff;
+    text-align: center;
+}
+
+.company__one h5 {
+    color:  #537223;
+    text-align: center;
+    font-family: "Roboto Slab";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+}
+
+
+
+/* you */
+
+.you{
+    padding: 50px 1px;
+}
+
+.you__title h5 {
+    color:  #2B2A29;
+    font-family: "Gilroy";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.you__button button{
+    padding: 20px 1px;
+}
+
+.you__desc{
+    border-radius: 3px;
+    background: rgba(196, 196, 196, 0.20);
+}
+
+.you__desc p {
+    color:  #2B2A29;
+    font-family: "Roboto Slab";
+    font-size: 22px;
+    font-style: normal;
+    text-align: center;
+}
+
+.you__ikon  {
+    display: flex;
+    justify-content: center;
+    padding: 20px 1px;
+}
+
+
+/* cardv */
+
+.cardv{
+    background: #F0F0F0;
+}
+
+.cardv__cardv h5 {
+    display: flex;
+    justify-content: center;
+    padding: 50px 1px;
+    color:  #2B2A29;
+    font-family: "Gilroy";
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.cardv1{
+    border-radius: 5px;
+    background: #FFF;
+}
+
+.cardv__title h5 {
+    color:  #537223;
+    font-family: Roboto Slab;
+    font-size: 26px;
+    font-style: normal;
+    padding: 20px 20px;
+}
+.cardv__desc p {
+    color: rgba(43, 42, 41, 0.40);
+    font-family: "Gilroy";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 600;
+    padding: 2px 20px;
+}
+
+.cardv__desc h5 {
+    color:  #2B2A29;
+    font-family: "Gilroy";
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    padding: 2px 20px;
+}
+
+.cardv__img {
+    padding: 2px 20px;
+}
+
+/* footer */
+
+/* .footer__kard{
+    padding: 50px 1px;
+} */
+.footer__kard{
+    background: black;
+}
+
+.bootim__logo img {
+    margin-top: -20px;
+}
+
+.bootim{
+    padding: 20px 1px;
+}
+.footer__menu ul {
+    list-style-type: none;
+}
+
+.footer__menu ul li a {
+    text-decoration: none;
+    color: #ffffff82;
+    font-family: "Gilroy";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+
+}
+.footer{
+    background: #363534;
+}
+
+@media (max-width: 992px) {
+    .you__img img {
+        width: 302px;
+    }
+    .cardv__img img {
+        width: 129px;
+    }
+}
+
+@media (max-width: 768px) {
+    .card__img img {
+        width: 165px;
+    }
+    .you__img img  {
+        width: 229px;
+    }
+    .cardv__img img {
+        width: 92px;
+    }
+}
+
+@media (max-width: 576px) {
+    .main__four i {
+        color: #FEB72B;
+        font-size: 32px;
+        margin-top: 3px;
+        margin-left: 104px;
+        position: absolute;
+    }
+    .bars {
+        /* display: none; */
+        font-size: 25px;
+        margin-top: -46px;
+        margin-left: -107px;
+    }
+
+    .main__four h5 {
+        color: #FFF;
+        font-family: "Gilroy";
+        font-size: 37px;
+        font-style: normal;
+        margin-top: -56px;
+        /* margin-left: 96px; */
+        margin-left: 174px;
+    }
+
+    .cards__button {
+        display: none;
+    }
+
+    .card__img img {
+        width: 259px;
+    }
+
+    .you__button{
+        display: none;
+    }
+    .cardv{
+        text-align: center;
+    }
+
+    .cardn__button button {
+        padding: 16px 53px;
+        border-radius: 3px;
+        border: 1px solid #89975C;
+        color: #537223;
+        font-family: "HelveticaNeueCyr";
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 0.16px;
+        margin-left: -18px;
+    }
+}
+
